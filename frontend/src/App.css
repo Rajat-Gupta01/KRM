@@ -1,0 +1,25 @@
+/* .head{
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    border: 1px black;
+} */
+ .head {
+        width: 500px;
+        height: 200px;
+        padding: 30px;
+        margin: 10px;
+        border: 0px;
+        /* background-color: #fafbfb; */
+        box-sizing: border-box;
+        
+ }
+.head img{
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    width: 100px;
+    display: flex;
+    margin: 20px 20px 0px 100px ;
+}
