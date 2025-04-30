@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const mongo_url = process.env.MONGO_CONN;
 
-mongoose.connect("mongodb+srv://mentorsnicin:US4VfMnBgZ9v4zTM@assignment.06212xz.mongodb.net/?retryWrites=true&w=majority&appName=assignment")
+mongoose.connect("mongodb+srv://Rajat:<db_password>@assignment.nvile50.mongodb.net/mydb")
     .then(() => {
         console.log('MongoDB Connected...');
     }).catch((err) => {
